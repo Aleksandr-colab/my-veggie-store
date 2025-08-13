@@ -1,0 +1,77 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 16px;
+    width: 100%;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .catalog {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-right: auto;
+    margin-left: 16px;
+  }
+  
+  .shop {
+    background-color: #54b46a;
+    color: white;
+    border-radius: 17px;
+    padding: 2px 8px;
+    font-weight: 700;
+  }
+  
+  .cartButton {
+    background-color: #54b46a;
+    border-radius: 15px;
+    width: 140px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0;
+  }
+  
+  .cartButton:hover {
+    background-color: #48a05c;
+  }
+  
+  .counterBadge {
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+    min-height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    margin-right: 4px;
+  }
+  
+  .cartText {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+  }
